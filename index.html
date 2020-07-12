@@ -506,18 +506,21 @@
         </div>
         <div class="item">
           <p class="footer-title"><b>ПOДПИШИТЕСЬ НА РАССЫЛКУ</b></p>
-          <label class="footer-label">
-            <input
-              class="footer-input"
-              type="email"
-              name="email"
-              placeholder="E-mail" />
-            <p class="button secondary">
+          <div class="footer-label">
+            <label>
+              <input
+                class="footer-input"
+                type="email"
+                name="email"
+                placeholder="E-mail"
+            /></label>
+            <button class="button secondary">
               Подписаться
               <svg class="icon-letter">
                 <use href="./images/symbol-defs.svg#icon-letter"></use>
-              </svg></p
-          ></label>
+              </svg>
+            </button>
+          </div>
         </div>
       </div>
       <p class="copyright center">2020 | Developed by GoIT Students</p>
@@ -526,59 +529,52 @@
       <form class="form" autocomplete="off">
         <b class="form-title">Оставьте свои данные, мы вам перезвоним</b>
         <ul class="list">
-          <li>
+          <li class="form-field">
             <label class="form-label">
-              <div class="form-field">
-                <input
-                  class="form-input first-form-input"
-                  type="text"
-                  name="name"
-                  placeholder="  "
-                />
-                <svg class="form-icon" width="12px" height="12px">
-                  <use href="./images/symbol-defs.svg#icon-Vector"
-                </svg>
-                <span class="text-form">Имя</span>
-              </div>
+              <input
+                class="form-input first-form-input"
+                type="text"
+                name="name"
+                placeholder="  "
+              />
+              <svg class="form-icon" width="12px" height="12px">
+                <use href="./images/symbol-defs.svg#icon-Vector"></use>
+              </svg>
+              <span class="text-form">Имя</span>
             </label>
           </li>
-          <li>
+          <li class="form-field">
             <label class="form-label">
-              <div class="form-field">
-                <input
-                  class="form-input"
-                  type="tel"
-                  name="tel"
-                  placeholder="  "
-                />
-                <svg class="form-icon" width="13px" height="13px">
-                  <use href="./images/symbol-defs.svg#icon-Vector-2"
-                </svg>
-                <span class="text-form">Телефон</span>
-              </div>
+              <input
+                class="form-input"
+                type="tel"
+                name="tel"
+                placeholder="  "
+              />
+              <svg class="form-icon" width="13px" height="13px">
+                <use href="./images/symbol-defs.svg#icon-Vector-2"></use>
+              </svg>
+              <span class="text-form">Телефон</span>
             </label>
           </li>
-          <li>
+          <li class="form-field">
             <label class="form-label">
-              <div class="form-field">
-                <input
-                  class="form-input"
-                  type="email"
-                  name="email"
-                  placeholder="  "
-                />
-                <svg class="form-icon" width="15px" height="12px">
-                  <use href="./images/symbol-defs.svg#icon-Vector-1"
-                </svg>
-                <span class="text-form">Почта</span>
-              </div>
+              <input
+                class="form-input"
+                type="email"
+                name="email"
+                placeholder="  "
+              />
+              <svg class="form-icon" width="15px" height="12px">
+                <use href="./images/symbol-defs.svg#icon-Vector-1"></use>
+              </svg>
+              <span class="text-form">Почта</span>
             </label>
           </li>
         </ul>
         <div class="comment-field">
-          <label for="comment-label">
+          <label class="comment-label">
             <textarea
-              type="text"
               class="comment"
               name="comment"
               rows="5"
