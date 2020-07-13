@@ -661,6 +661,9 @@ p {
   top: 14px;
   fill: var(--title-color);
 }
+.form-input:focus ~ .form-icon {
+  fill: var(--accent-color);
+}
 
 .text-form {
   position: absolute;
@@ -726,8 +729,7 @@ p {
 
 .check:checked ~ .checkbox {
   border-color: var(--accent-color);
-  background-color: var(--accent-color);
-  background-image: url(../images/check-on.svg);
+  background-image: url(../images/icon-check.svg);
   background-size: contain;
   background-origin: border-box;
   background-repeat: no-repeat;
